@@ -1,0 +1,15 @@
+9)1) select shape map > state to location ,revenue to colurs saturation > fo to format change colours
+2) select a line chart > month to x axis ,total to y axis > year to legend 
+3) click on transform data > add column > custom colun> age bins > = if [age]>=18 and [age]<=27 then "18-27"
+else if [age]>=28 and [age]]<=37 then "28-37" same for 38-47 ,48-57,58-67
+else "68-75" go to home click on close and apply
+select bar chart drag age bins to x axis ,total revenue to y axis
+4) select dogunt > add region to legend > total to values > in format pan change if want
+5) go to transform data > add column > conduition coulmns> name = Female revenue, select gender ,equals, F,output = select colmn chon female revenue
+create one more column of male revenuve  go to home close and apply
+select stack bar chart twice ,click on 1 st chart > female revenue to x axis > category to y aixs  >> same for male revenuve
+go to format  option > on x axis  select invert range > 2nd graph yaxis  select invert range
+7) go to transform data > right click on table click on duplicate and name it >click on duplicate table go to group by option >selct state > avg_rev > average > total
+click on merge quires > select state > select dupliicatte table > click on downword symbol >unselect state ,> unselect use previos click on close and apply 
+riht click on avg rev > create  new column > type= Profitability_status=IF('sales_06_FY2020-21 copy'[avg_rev]>=1000,"Profiyable","non Profitable")
+egend;pclick on stacked bar chart >state to y axis >avg rev to x axis > profitability status to legend

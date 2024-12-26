@@ -1,0 +1,12 @@
+11)1)GO to transform table >go to add column >select condition column > type attrition count in new column name >values= Yes ,output=1,else=0 > click on ok > go to home close and apply
+right click on attrition count go to new measure > go to column tools change data type from text to decimal >>Attrition Rate =( SUM('HR data'[Attrition Count ])/COUNT('HR data'[Employee Count]))* 100  > click on yes mark >select format from genre to decimial number
+selec multi row card >Employee count to field > Attrition count ,attrition rate to filed respectively >current employee ,age to field
+click on format so to values increase the size
+2) go to power bi >click on new sheet > right click on attrition rate go to measure >type =upper=[Attrition rate ] 
+Rc on attrion rate new measure >lower =[attrion rate]
+select line chart >drag gender  to x axixs ,attrion rate to y axis > go to format find error bust >in options enable the optio drag lower on to lower bound and upper to > go to marker enable the option increase size
+3)elect pie chart >dept to legend attriton count to  values
+4)select bar chart cn age band to x axis >ecount to y axis > select one more bar chart >drag age band  to x axis cf current employee to y axis
+5)select table job role to column ,job statisfication to column
+6) select bar chart > drag education field to y axis ,attrition count to x axis , education field to legend
+7) select dognut chart > gender to legend ,attrition rate to values > go to filters drag data age band to data field here > in basic filtring select age between 25 -34 > no w copy the pie chart and paste 5 times ,for each pie chart select different  age 
